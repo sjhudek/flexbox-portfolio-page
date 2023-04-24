@@ -1,9 +1,9 @@
-#Portfolio page using Flexbox
+# Portfolio page using Flexbox
 
-##User Story
+## User Story
 For a potential employer, I want have a portfolio of work samples, so that my work can show my skills and let them determine if I would be a good fit for an open position. By reviewing my work, they can gain valuable insights into my abilities and determine if I have the expertise and experience necessary to excel in the role. My portfolio will help them make a more informed decisions when evaluating candidates and will help ensure that they are selecting the best person for the job.
 
-##Acceptance Criteria
+## Acceptance Criteria
 
 To have a portfolio site that will impress a hiring manager that will be a compelling and effective tool for impressing a hiring manager and securing the job!
 
