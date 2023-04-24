@@ -18,3 +18,13 @@ The portfolio site will show:
 
 ## Portfolio site:
 https://sjhudek.github.io/flexbox-portfolio-page/
+
+## Source Code:
+
+- Tutor: HTNL and CSS code related to Flexbox
+- YouTube tutorials:
+  Brad Traversy
+  https://youtu.be/DJq6R2b0FoE
+
+  Colt Steele
+  https://youtu.be/qZv-rNx0jEA
