@@ -17,3 +17,4 @@ The portfolio site will show:
 - The portfolio should be responsive.
 
 ## Portfolio site:
+https://sjhudek.github.io/flexbox-portfolio-page/
