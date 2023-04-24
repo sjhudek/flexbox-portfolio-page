@@ -1,0 +1,144 @@
+:root {
+  --darkcyan: darkcyan;
+  --shadow: #6c6c6c;
+  --white: white;
+  --black: black;
+  --nav: #13293d;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+ 
+/* begin header */
+header {
+  background-color: var(--darkcyan);
+  background-image: url(../images/North-Arapaho-Peak_Panorama-1_AuroraHDR_RealisticLandscape.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 5px var(--shadow);
+  color: var(--white);
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header p {
+  font-size: 2rem;
+}
+
+.steve{
+  width: 250px;
+  display: inline-block;
+  margin-top: 20px;;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px var(--shadow);;
+}
+
+/* end header */
+
+/* begin navbar */
+.navbar{
+  background-color: var(--black);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navlink {
+  color: var(--white);
+  font-size: 1.2rem;
+  margin: 0 30px;
+  text-decoration: none;
+}
+/* end navbar */
+
+/* begin main body content some code borrowed from sample challenge #2 site */
+
+h2 {
+  font-size: 2rem;
+  margin-right: 30px;
+  margin-top: 30px;
+  min-width: 125px;
+}
+
+#about, #projects, #contacts {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about p {
+  position: relative;
+  display: flex;
+  margin: 30px 0;
+  font-size: 1.7rem;
+  line-height: 2rem;
+}
+
+.contact, #contact {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+  font-size: 1.7rem;
+  line-height: 2rem;
+}
+
+.contact li {
+  display: flex;
+  margin-right: 20px;
+}
+
+/* end main body content */
+
+/* begin project images */
+
+/* img styles */
+.main-img {
+  width: 100%;
+}
+
+.works{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work-title{
+  text-align: left;
+  font-size: 2rem;
+}
+
+.horiseon {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+/* end project images */
+
+footer{
+  background-color: var(--black);
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: var(--white);
+  text-align: center;
+}
